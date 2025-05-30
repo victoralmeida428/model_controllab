@@ -1,3 +1,3 @@
-module github.com/victoralmeida428/unlock
+module github.com/victoralmeida428/model_controllab
 
 go 1.23
