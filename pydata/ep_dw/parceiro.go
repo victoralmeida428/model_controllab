@@ -21,5 +21,5 @@ type Parceiros struct {
 	Logradouro         *string  `db:"logradouro" json:"logradouro"`
 	Bairro             *string  `db:"bairro" json:"bairro"`
 	Cep                *string  `db:"cep" json:"cep"`
-	IDGrupo            *int16   `db:"id_grupo" json:"id_grupo"`
+	IDGrupo            int16    `db:"id_grupo" json:"id_grupo"`
 }
